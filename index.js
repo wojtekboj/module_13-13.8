@@ -3,7 +3,7 @@ var fs = require('fs');
 var server = http.createServer();
 
 server.on('request', function (request, response) {
-    response.setHeader("Content-Type", "text/html; charset=utf-8");
+    response.setHeader('Content-Type', 'text/html; charset=utf-8');
     if (request.method === 'GET' && request.url === '/') {
         fs.readFile('./index.html', (err, data) => {
             if (err) throw err;
@@ -12,7 +12,7 @@ server.on('request', function (request, response) {
         });
 
     } else {
-        response.setHeader("Content-Type", "image/png");
+        response.setHeader('Content-Type', 'image/png');
         fs.readFile('./error.png', (err, data2) => {
             if (err) throw err;
             response.statusCode = 404;
