@@ -1,0 +1,19 @@
+{
+  "name": "13.8",
+  "version": "1.0.0",
+  "description": "Zadanie 13.8",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wojtekboj/module_13-13.8.git"
+  },
+  "author": "Wojciech Bojarczuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wojtekboj/module_13-13.8/issues"
+  },
+  "homepage": "https://github.com/wojtekboj/module_13-13.8#readme"
+}
