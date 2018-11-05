@@ -25,7 +25,6 @@ Project is created with:
 The following tools were used
 * Webstorm
 * Git
-* NPM
 * <a href="https://nodejs.org/en/">Node.js</a>
 
 ## Screen 
