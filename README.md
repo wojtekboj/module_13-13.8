@@ -13,7 +13,7 @@ inform him about the 404 error.
 
 Command
 
-<code>node index.js - running script</code><br>
+<code>node index.js - running script and open browser</code><br>
 <code>http://localhost:8080 - running in browser</code>
 
 
